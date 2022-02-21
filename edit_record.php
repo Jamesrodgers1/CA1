@@ -3,12 +3,12 @@
 // Get the record data
 $record_id = filter_input(INPUT_POST, 'record_id', FILTER_VALIDATE_INT);
 $category_id = filter_input(INPUT_POST, 'category_id', FILTER_VALIDATE_INT);
-$name = filter_input(INPUT_POST, 'name');
+$make = filter_input(INPUT_POST, 'make');
 $price = filter_input(INPUT_POST, 'price', FILTER_VALIDATE_FLOAT);
 
 // Validate inputs
 if ($record_id == NULL || $record_id == FALSE || $category_id == NULL ||
-$category_id == FALSE || empty($name) ||
+$category_id == FALSE || empty($make) ||
 $price == NULL || $price == FALSE) {
 $error = "Invalid record data. Check all fields and try again.";
 include('error.php');
