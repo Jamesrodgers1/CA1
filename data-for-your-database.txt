@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `shop`
+-- Database: `test`
 --
 
 -- --------------------------------------------------------
@@ -71,18 +71,17 @@ INSERT INTO `records` (`recordID`, `categoryID`, `make`, `model`, `year`, `damag
 (2, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
 (3, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
 (4, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(5, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(6, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(1, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(1, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(1, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(1, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(1, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(1, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(1, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(1, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(1, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg');
-
+(5, 2, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(6, 2, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(7, 2, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(8, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(9, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(10, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(11, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(12, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(13, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(14, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(15, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg');
 --
 -- Indexes for dumped tables
 --
