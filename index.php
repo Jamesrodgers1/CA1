@@ -81,7 +81,15 @@ include('includes/header.php');
 <tr>
 <td><img src="image_uploads/<?php echo $record['image']; ?>" width="100px" height="100px" /></td>
 <td><?php echo $record['make']; ?></td>
+<td><?php echo $record['model']; ?></td>
+<td class="right"><?php echo $record['year']; ?></td>
+<td><?php echo $record['damage']; ?></td>
+<td><?php echo $record['seized']; ?></td>
+<td><?php echo $record['mileage']; ?></td>
+<td><?php echo $record['colour']; ?></td>
+<td><?php echo $record['usednew']; ?></td>
 <td class="right"><?php echo $record['price']; ?></td>
+
 <td><form action="delete_record.php" method="post"
 id="delete_record_form">
 <input type="hidden" name="record_id"

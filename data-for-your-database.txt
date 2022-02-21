@@ -67,21 +67,21 @@ CREATE TABLE `records` (
 --
 
 INSERT INTO `records` (`recordID`, `categoryID`, `make`, `model`, `year`, `damage`, `seized`, `mileage`, `colour`, `usednew`, `price`, `image`) VALUES
-(1, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(2, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(3, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(4, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(5, 2, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(6, 2, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(7, 2, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(8, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(9, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(10, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(11, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(12, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(13, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(14, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(15, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Droghed guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg');
+(1, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Balbriggan guarda Station', '8000', 'Red', 'used', '12000', '644471.jpg'),
+(2, 1, 'Toyota', 'Corolla', 2016, 'Bent front wheel', 'by Drogheda guarda Station', '9000', 'Blue', 'new', '80000', '644471.jpg'),
+(3, 1, 'Peugeot', '207', 2008, 'No Damage', 'by Drogheda guarda Station', '5000', 'Silver', 'used', '60000', '644471.jpg'),
+(4, 1, 'Audi', 'Q7', 2014, 'Bent Bumper', 'by Coolcock guarda Station', '18800', 'Grey', 'used', '34000', '644471.jpg'),
+(5, 1, 'Audi', 'Q2', 2018, 'Bent engine bay', 'by Finglas guarda Station', '24000', 'Silver', 'used', '30000', '644471.jpg'),
+(6, 1, 'Audi', 'A3', 2016, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(7, 2, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(8, 3, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(9, 3, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(10, 3, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(11, 2, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(12, 3, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(13, 2, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(14, 3, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
+(15, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg');
 --
 -- Indexes for dumped tables
 --
