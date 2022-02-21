@@ -28,9 +28,44 @@ include('includes/header.php');
                    value="<?php echo $records['categoryID']; ?>">
             <br>
 
-            <label>Name:</label>
-            <input type="input" name="name"
-                   value="<?php echo $records['name']; ?>">
+            <label>Make:</label>
+            <input type="input" name="make"
+                   value="<?php echo $records['make']; ?>">
+            <br>
+
+            <label>Model:</label>
+            <input type="input" name="model"
+                   value="<?php echo $records['model']; ?>">
+            <br>
+
+            <label>Year:</label>
+            <input type="input" name="year"
+                   value="<?php echo $records['year']; ?>">
+            <br>
+
+            <label>Damage:</label>
+            <input type="input" name="damage"
+                   value="<?php echo $records['damage']; ?>">
+            <br>
+
+            <label>Seized:</label>
+            <input type="input" name="seized"
+                   value="<?php echo $records['seized']; ?>">
+            <br>
+
+            <label>Mileage:</label>
+            <input type="input" name="mileage"
+                   value="<?php echo $records['mileage']; ?>">
+            <br>
+
+            <label>Colour:</label>
+            <input type="input" name="colour"
+                   value="<?php echo $records['colour']; ?>">
+            <br>
+
+            <label>Usednew:</label>
+            <input type="input" name="usednew"
+                   value="<?php echo $records['usednew']; ?>">
             <br>
 
             <label>List Price:</label>

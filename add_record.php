@@ -68,7 +68,14 @@ if ($category_id == null || $category_id == false ||
                  (:category_id, :name, :price, :image)";
     $statement = $db->prepare($query);
     $statement->bindValue(':category_id', $category_id);
-    $statement->bindValue(':name', $name);
+    $statement->bindValue(':make', $make);
+    $statement->bindValue(':model', $model);
+    $statement->bindValue(':year', $year);
+    $statement->bindValue(':damage', $damage);
+    $statement->bindValue(':seized', $seized);
+    $statement->bindValue(':mileage', $mileage);
+    $statement->bindValue(':colour', $colour);
+    $statement->bindValue(':usednew', $usednew);
     $statement->bindValue(':price', $price);
     $statement->bindValue(':image', $image);
     $statement->execute();

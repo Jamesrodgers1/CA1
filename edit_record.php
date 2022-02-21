@@ -50,13 +50,27 @@ require_once('database.php');
 
 $query = 'UPDATE records
 SET categoryID = :category_id,
-name = :name,
+make = :make,
+model = :model,
+year = :year,
+damage = :damage,
+seized = :seized,
+mileage = :mileage,
+colour = :colour,
+usednew = :usednew,
 price = :price,
 image = :image
 WHERE recordID = :record_id';
 $statement = $db->prepare($query);
 $statement->bindValue(':category_id', $category_id);
-$statement->bindValue(':name', $name);
+$statement->bindValue(':make', $make);
+$statement->bindValue(':model', $model);
+$statement->bindValue(':year', $year);
+$statement->bindValue(':damage', $damage);
+$statement->bindValue(':seized', $seized);
+$statement->bindValue(':mileage', $mileage);
+$statement->bindValue(':colour', $colour);
+$statement->bindValue(':usednew', $usednew);
 $statement->bindValue(':price', $price);
 $statement->bindValue(':image', $image);
 $statement->bindValue(':record_id', $record_id);

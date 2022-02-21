@@ -1,6 +1,6 @@
 <?php
 // Get the category data
-$name = $name = filter_input(INPUT_POST, 'name');
+$name = $name = filter_input(INPUT_POST, 'make');
 
 // Validate inputs
 if ($name == null) {
@@ -13,7 +13,7 @@ if ($name == null) {
     $query = "INSERT INTO categories (categoryName)
               VALUES (:name)";
     $statement = $db->prepare($query);
-    $statement->bindValue(':name', $name);
+    $statement->bindValue(':make', $make);
     $statement->execute();
     $statement->closeCursor();
 

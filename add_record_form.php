@@ -26,13 +26,41 @@ include('includes/header.php');
             <?php endforeach; ?>
             </select>
             <br>
-            <label>Name:</label>
-            <input type="input" name="name">
+            <label>Make:</label>
+            <input type="input" name="make">
             <br>
 
-            <label>List Price:</label>
+            <label>Model:</label>
+            <input type="input" name="model">
+            <br>  
+            
+            <label>Year:</label>
+            <input type="input" name="year">
+            <br>  
+
+            <label>Damage:</label>
+            <input type="input" name="damage">
+            <br>  
+
+            <label>Seized:</label>
+            <input type="input" name="seized">
+            <br>
+            
+            <label>Mileage:</label>
+            <input type="input" name="mileage">
+            <br>  
+
+            <label>Colour:</label>
+            <input type="input" name="colour">
+            <br>  
+
+            <label>Usednew:</label>
+            <input type="input" name="usednew">
+            <br>  
+
+            <label>Price:</label>
             <input type="input" name="price">
-            <br>        
+            <br>  
             
             <label>Image:</label>
             <input type="file" name="image" accept="image/*" />
