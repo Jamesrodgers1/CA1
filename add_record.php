@@ -63,9 +63,9 @@ if ($category_id == null || $category_id == false ||
 
     // Add the product to the database 
     $query = "INSERT INTO records
-                 (categoryID, name, price, image)
+                 (categoryID, make, model, year, damage, seized, mileage, colour, usednew, price, image)
               VALUES
-                 (:category_id, :name, :price, :image)";
+                 (:category_id, :make,:model, :year,:damage, :seized, :mileage, :colour, :usednew,:price, :image)";
     $statement = $db->prepare($query);
     $statement->bindValue(':category_id', $category_id);
     $statement->bindValue(':make', $make);
