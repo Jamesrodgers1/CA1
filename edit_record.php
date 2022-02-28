@@ -4,6 +4,13 @@
 $record_id = filter_input(INPUT_POST, 'record_id', FILTER_VALIDATE_INT);
 $category_id = filter_input(INPUT_POST, 'category_id', FILTER_VALIDATE_INT);
 $make = filter_input(INPUT_POST, 'make');
+$model = filter_input(INPUT_POST, 'model');
+$year = filter_input(INPUT_POST, 'year');
+$damage = filter_input(INPUT_POST, 'damage');
+$seized = filter_input(INPUT_POST, 'seized');
+$mileage = filter_input(INPUT_POST, 'mileage');
+$colour = filter_input(INPUT_POST, 'colour');
+$usednew = filter_input(INPUT_POST, 'usednew');
 $price = filter_input(INPUT_POST, 'price', FILTER_VALIDATE_FLOAT);
 
 // Validate inputs

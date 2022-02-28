@@ -2,12 +2,19 @@
 
 // Get the product data
 $category_id = filter_input(INPUT_POST, 'category_id', FILTER_VALIDATE_INT);
-$name = filter_input(INPUT_POST, 'name');
+$make = filter_input(INPUT_POST, 'make');
+$model = filter_input(INPUT_POST, 'model');
+$year = filter_input(INPUT_POST, 'year');
+$damage = filter_input(INPUT_POST, 'damage');
+$seized = filter_input(INPUT_POST, 'seized');
+$mileage = filter_input(INPUT_POST, 'mileage');
+$colour = filter_input(INPUT_POST, 'colour');
+$usednew = filter_input(INPUT_POST, 'usednew');
 $price = filter_input(INPUT_POST, 'price', FILTER_VALIDATE_FLOAT);
 
 // Validate inputs
 if ($category_id == null || $category_id == false ||
-    $name == null || $price == null || $price == false ) {
+    $make == null || $price == null || $price == false ) {
     $error = "Invalid product data. Check all fields and try again.";
     include('error.php');
     exit();
@@ -39,7 +46,7 @@ if ($category_id == null || $category_id == false ||
         // Check file size '5MB'
             if ($imgSize < 5000000) {
                 if (move_uploaded_file($_FILES["image"]["tmp_name"], $upload_dir . $image)) {
-                    echo "The file ". basename( $_FILES["image"]["name"]). " has been uploaded.";
+                    echo "The file ". basename( $_FILES["image"]["make"]). " has been uploaded.";
                 } else {
                     $error =  "Sorry, there was an error uploading your file.";
                     include('error.php');

@@ -1,9 +1,9 @@
 <!-- the head section -->
 <head>
-<title>My PHP CRUD App</title>
+<title>Stolen Car Dealership</title>
 <link rel="stylesheet" type="text/css" href="main.css">
 </head>
 
 <!-- the body section -->
 <body>
-<header><h1>My PHP CRUD app</h1></header>
+<header><h1>Stolen Car Dealership</h1></header>

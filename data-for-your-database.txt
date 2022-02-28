@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Feb 16, 2022 at 03:33 PM
+-- Generation Time: Feb 28, 2022 at 02:04 PM
 -- Server version: 10.4.22-MariaDB
 -- PHP Version: 7.4.26
 
@@ -67,21 +67,22 @@ CREATE TABLE `records` (
 --
 
 INSERT INTO `records` (`recordID`, `categoryID`, `make`, `model`, `year`, `damage`, `seized`, `mileage`, `colour`, `usednew`, `price`, `image`) VALUES
-(1, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Balbriggan guarda Station', '8000', 'Red', 'used', '12000', '644471.jpg'),
-(2, 1, 'Toyota', 'Corolla', 2016, 'Bent front wheel', 'by Drogheda guarda Station', '9000', 'Blue', 'new', '80000', '644471.jpg'),
-(3, 1, 'Peugeot', '207', 2008, 'No Damage', 'by Drogheda guarda Station', '5000', 'Silver', 'used', '60000', '644471.jpg'),
-(4, 1, 'Audi', 'Q7', 2014, 'Bent Bumper', 'by Coolcock guarda Station', '18800', 'Grey', 'used', '34000', '644471.jpg'),
-(5, 1, 'Audi', 'Q2', 2018, 'Bent engine bay', 'by Finglas guarda Station', '24000', 'Silver', 'used', '30000', '644471.jpg'),
-(6, 1, 'Audi', 'A3', 2016, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(7, 2, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(8, 3, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(9, 3, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(10, 3, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(11, 2, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(12, 3, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(13, 2, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(14, 3, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg'),
-(15, 1, 'Toyota', 'Yaris', 2019, 'Bent front fender', 'by Drogheda guarda Station', '120000', 'Red', 'used', '12000', '644471.jpg');
+(2, 1, 'Toyota', 'Corolla', 2010, 'bent hood', 'by Drogheda guarda Station', 60000, 'grey', 'new', '8000.00', '915273.jpg'),
+(3, 1, 'Peugeot', '207', 2008, 'No Damage', 'by Drogheda guarda Station', 60000, 'grey', 'used', '6000.00', '413324.jpg'),
+(4, 1, 'Audi', 'Q7', 2014, 'not functional parts only', 'by Coolcock guarda Station', 18800, 'Grey', 'used', '2000.00', '500846.jpg'),
+(5, 1, 'Audi', 'Q2', 2018, 'Damaged front fender', 'by Finglas guarda Station', 32000, 'white', 'used', '30000.00', '694510.jpg'),
+(6, 1, 'Audi', 'A3', 2012, 'Damaged front Bumper', 'by Drogheda guarda Station', 12000, 'Black', 'used', '12000.00', '836749.jpg'),
+(7, 2, 'Dodge', 'Challenger', 2013, 'Broken front bumper', 'by Drogheda guarda Station', 120000, 'Red', 'used', '18000.00', '538661.jpg'),
+(8, 3, 'mazda', 'rx7', 2002, 'Damaged Front Engine bay', 'by Drogheda guarda Station', 89000, 'white', 'used', '36000.00', '865157.jpg'),
+(9, 3, 'Toyota', 'civic', 2017, 'Damaged front fender', 'by Drogheda guarda Station', 77000, 'white', 'used', '23000.00', '770312.jpg'),
+(10, 3, 'GMC', 'jimmy', 2002, 'Damaged Front Engine bay', 'by Drogheda guarda Station', 112000, 'Red', 'used', '12000.00', '754214.jpg'),
+(11, 2, 'Toyota', 'Supra', 2008, 'Bent rear bumper', 'by Drogheda guarda Station', 77000, 'Black', 'used', '70000.00', '10264.jpg'),
+(12, 3, 'mercedes', 'c63 amg', 2012, 'Bent front', 'by Drogheda guarda Station', 88000, 'white', 'used', '33000.00', '415999.jpg'),
+(13, 2, 'subaru', 'wrx', 2015, 'Bent front Bumper', 'by Drogheda guarda Station', 120000, 'blue', 'used', '18000.00', '697100.jpg'),
+(14, 3, 'Volkswagen', 'Jetta', 2013, 'Bent front hood', 'by Drogheda guarda Station', 120000, 'Black', 'used', '22000.00', '954313.jpg'),
+(15, 1, 'Toyota', 'Yaris', 2018, 'Bent front Hood', 'by Drogheda guarda Station', 12000, 'Blue', 'used', '12000.00', '837433.jpg'),
+(17, 1, 'Ferrari', '458', 2012, 'bent hood', 'Tallaght Gardai', 12000, 'white', 'used', '220000.00', '707719.jpg');
+
 --
 -- Indexes for dumped tables
 --
@@ -100,7 +101,7 @@ ALTER TABLE `records`
 -- AUTO_INCREMENT for table `records`
 --
 ALTER TABLE `records`
-  MODIFY `recordID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `recordID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=18;
 COMMIT;
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
