@@ -44,20 +44,27 @@ include('includes/header.php');
 ?>
 <h1>Seized Cars</h1>
 
-<aside>
+
 <!-- display a list of categories -->
-<h2>Categories</h2>
-<nav>
-<ul>
-<?php foreach ($categories as $category) : ?>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavDropdown">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>    
+      <?php foreach ($categories as $category) : ?>
 <li><a href=".?category_id=<?php echo $category['categoryID']; ?>">
 <?php echo $category['categoryName']; ?>
 </a>
 </li>
 <?php endforeach; ?>
-</ul>
-</nav>          
-</aside>
+    </ul>
+  </div>
+</nav>  
 
 <section>
 <!-- display a table of records -->
