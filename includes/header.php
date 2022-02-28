@@ -1,7 +1,7 @@
 <!-- the head section -->
 <head>
 <title>Stolen Car Dealership</title>
-<link rel="stylesheet" type="text/css" href="main.css">
+<link rel="stylesheet" type="text/css" href="css/mycss.css">
 </head>
 
 <!-- the body section -->
