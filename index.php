@@ -53,13 +53,24 @@ include('includes/header.php');
   </button>
   <div class="collapse navbar-collapse" id="navbarNavDropdown">
     <ul class="navbar-nav"> 
+    <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Dropdown
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <p class = "dropdown-item"><a href="add_record_form.php">Add Record</a></p>
+          <p class = "dropdown-item"><a href="category_list.php">Manage Categories</a></p>
+          </ul>
+        </li>
       <?php foreach ($categories as $category) : ?>
 <li class="nav-link"><a href=".?category_id=<?php echo $category['categoryID']; ?>">
 <?php echo $category['categoryName']; ?>
 
+
 </li>
 <?php endforeach; ?>
     </ul>
+    
   </div>
 </nav>  
 
@@ -113,8 +124,6 @@ value="<?php echo $record['categoryID']; ?>">
 </tr>
 <?php endforeach; ?>
 </table>
-<p><a href="add_record_form.php">Add Record</a></p>
-<p><a href="category_list.php">Manage Categories</a></p>
 </section>
 <?php
 include('includes/footer.php');
