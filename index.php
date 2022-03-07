@@ -62,15 +62,21 @@ include('includes/header.php');
           <p class = "dropdown-item"><a href="category_list.php">Manage Categories</a></p>
           </ul>
         </li>
+        
       <?php foreach ($categories as $category) : ?>
 <li class="nav-link"><a href=".?category_id=<?php echo $category['categoryID']; ?>">
 <?php echo $category['categoryName']; ?>
       </a>
 </li>
+
 <?php endforeach; ?>
     </ul>
   </div>
 </nav>  
+
+
+<!-- (B) SEARCH RESULTS -->
+<div id="results"></div>
 
 <section>
 <!-- display a table of records -->
