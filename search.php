@@ -1,10 +1,12 @@
 <?php
+
+
 // (A) DATABASE CONFIG - CHANGE TO YOUR OWN!
 define("DB_HOST", "localhost");
-define("DB_NAME", "test");
+define("DB_NAME", "D00237812");
 define("DB_CHARSET", "utf8");
-define("DB_USER", "root");
-define("DB_PASSWORD", "");
+define("DB_USER", "D00237812");
+define("DB_PASSWORD", "qJie0sSH");
  
 // (B) CONNECT TO DATABASE
 try {

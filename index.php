@@ -69,10 +69,20 @@ include('includes/header.php');
       </a>
 </li>
 
+ 
+
+
 <?php endforeach; ?>
     </ul>
   </div>
 </nav>  
+
+
+<form method="post" action="form.php">
+  <h1>SEARCH FOR MAKE</h1>
+  <input type="text" name="search" required/>
+  <input type="submit" value="Search"/>
+</form> 
 
 
 <!-- (B) SEARCH RESULTS -->

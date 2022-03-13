@@ -1,10 +1,9 @@
-<!-- (A) SEARCH FORM -->
+
 <form method="post" action="form.php">
   <h1>SEARCH FOR MAKE</h1>
   <input type="text" name="search" required/>
   <input type="submit" value="Search"/>
 </form>
-
 <?php
 // (B) PROCESS SEARCH WHEN FORM SUBMITTED
 if (isset($_POST["search"])) {
@@ -16,7 +15,7 @@ if (isset($_POST["search"])) {
   }} else { echo "No results found"; }
 }
 ?>
-
+<?php     include('includes/header.php');     ?>
 <table>
 <tr>
 <th>Image</th>
@@ -47,3 +46,5 @@ if (isset($_POST["search"])) {
 
 </tr>
 </table>
+<p><a href="index.php">Homepage</a></p>
+<?php     include('includes/footer.php');     ?>

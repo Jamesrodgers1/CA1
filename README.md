@@ -1,8 +1,17 @@
-# students-php-crud
-A starter project for DkIT students on the Server-Side module.
-### Instructions
-* Create a MySQL database called php-crud in PHP MyAdmin
-* Run the code in the sql-db.txt file in PHP MyAdmin
-* Move the PHP files in to your htdocs folder so Apache can process the PHP code
-* Configure the database.php file to connect to your SQL database
+
+#Stolen Car Dealership James Rodgers
+
+This is my Stolen Car Dealership website based on cars that have been seized by Police stations in Ireland.
+
+#Instructions to run locally
+
+*Create a MySQL database Called D00237812.
+
+*Import the database from the data-for-your-database.txt file into D00237812.
+
+*Then go to the database.php file and change the username and password to your personal one.
+
+*Also change the username and password and database name in the search.php file to D00237812 for both dbname and username and then ur password.
+
+[To see the Website working click here](https://mysql05.comp.dkit.ie/D00237812/CA1/index.php)
 
